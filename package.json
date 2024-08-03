@@ -1,5 +1,5 @@
 {
-  "name": "design-pattern-task",
+  "name": "design-patterns-task",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -7,10 +7,10 @@
   "description": "Design pattern task.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mohamed-omar-mubark/design-pattern-task"
+    "url": "https://github.com/mohamed-omar-mubark/design-patterns-task"
   },
   "bugs": {
-    "url": "https://github.com/mohamed-omar-mubark/design-pattern-task/issues"
+    "url": "https://github.com/mohamed-omar-mubark/design-patterns-task/issues"
   },
   "keywords": [
     "design pattern"
