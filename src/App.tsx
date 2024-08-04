@@ -8,6 +8,7 @@ import Toast from './components/toast-task/ToastSection';
 
 // contexts
 import { ToastProvider } from './contexts/ToastContext';
+import Decorator from './components/decorator-task/Decorator';
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,17 @@ const App: React.FC = () => {
         </div>
 
         <Toast />
+
+        <div className='decorator-task-section mt-4 border-1 border-gray-200 border-round-md'>
+          <div className="head flex flex-column gap-2 p-3 border-round-md bg-gray-100">
+            <span className='font-semibold text-gray-700'>Primary Background Decorator</span>
+            <p className="m-0 text-sm font-medium text-gray-500">Decorator design pattern task.</p>
+          </div>
+
+          <div className="p-3">
+            <Decorator content="This is a component with 'bg-primary' class added using PrimaryBg decorator." />
+          </div>
+        </div>
       </div>
     </ToastProvider>
   );
